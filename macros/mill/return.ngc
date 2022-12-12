@@ -1,0 +1,27 @@
+; MACROCOMMAND=X,Y,S,P,F,Z
+; MACRODEFAULTS=0,0,0,0,0,0
+; MACROIMAGE=
+; O<return> call [Xmm] [Ymm] [Srpm] [Psec] [Feedmm/min] [Zmm] 
+
+O<return> sub
+G17
+G21
+G54
+G61
+G40
+G49
+G80
+G90
+
+;#1 = <X-Pos>
+;#2 = <Y-Pos>
+;#3 = <S-Speed>
+;#4 = <P-Pause>
+;#5 = <F-Feed>
+;#6 = <Z-Pos>
+
+    G1 F400 Z15
+    G0 X #1 Y #2
+    M3 S #3 G4P #4    
+    F #5 G1Z #6
+    O<return> endsub

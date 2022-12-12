@@ -1,0 +1,13 @@
+; MACROCOMMAND=
+; MACRODEFAULTS=
+; MACROIMAGE=go_home.png
+
+(go_home.ngc)
+
+O <go_home> sub 
+G53 G0 Z-5 
+G0 X0 Y0 
+O <go_home> endsub
+
+M2
+

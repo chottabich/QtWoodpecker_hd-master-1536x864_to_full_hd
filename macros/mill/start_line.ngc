@@ -1,0 +1,24 @@
+; MACROCOMMAND=Srpm,Psec,Fmm/min,Zmm
+; MACRODEFAULTS=0,0,0,0
+; MACROIMAGE=
+; O<start_line> call  [Srpm] [Psec] [Feedmm/min] [Zmm] 
+
+O<start_line> sub
+G17
+G21
+G54
+G61
+G40
+G49
+G80
+G90
+
+;#1 = <S-Speed>
+;#2 = <P-Pause>
+;#3 = <F-Feed>
+;#4 = <Z-Pos>
+
+    G1 F400 Z15
+    M3 S #1 G4P #2    
+    F #3 G1Z #4
+    O<start_line> endsub

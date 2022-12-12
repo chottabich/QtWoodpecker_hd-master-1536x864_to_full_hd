@@ -1,0 +1,24 @@
+; MACROCOMMAND= 
+; MACRODEFAULTS= 
+; MACROIMAGE=auto_tool_zero.png
+
+
+O <auto_tool_zero> sub 
+G49 G40
+G92.1
+#<z_start> = [#5422+#[5203+#5220*20]]
+#<z_dist_to_bottom> = [-50-#<z_start>]
+G91
+G38.2 Z[#<z_dist_to_bottom>] F[200]
+O<no_probe> IF [#5070 NE 0]
+   G38.4 Z5
+   G1 Z1
+   G4 P0.5 (pause 0.5 sec.)
+   G38.2 Z-10 F40
+   G10 L20 P[#5220] Z[15]
+   G90
+   G53 G0 Z[#<z_start>]
+O<no_probe> ENDIF
+G90
+O <auto_tool_zero> endsub
+M02
