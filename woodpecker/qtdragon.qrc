@@ -1,0 +1,55 @@
+<RCC>
+  <qresource prefix="buttons">
+    <file>tool_icons/ball_end_mill.png</file>
+    <file>tool_icons/ballend_straight.png</file>
+    <file>tool_icons/center_drill.png</file>
+    <file>tool_icons/drill.png</file>
+    <file>tool_icons/gauge.png</file>
+    <file>tool_icons/not_found.png</file>
+    <file>tool_icons/probe.png</file>
+    <file>tool_icons/spiral_ball_end.png</file>
+    <file>tool_icons/spiral_downcut_2F.png</file>
+    <file>tool_icons/spiral_upcut.png</file>
+    <file>tool_icons/surfacing.png</file>
+    <file>tool_icons/tapered_ball_end.png</file>
+    <file>tool_icons/tool_icons.txt</file>
+    <file>tool_icons/upcut_spiral.png</file>
+    <file>tool_icons/vbit-60.png</file>
+    <file>tool_icons/vbit-90.png</file>
+    <file>tool_icons/vbit-90deg.png</file>
+    <file>tool_icons/vbit-90deg.png</file>
+    <file>tool_icons/upcut_spiral.png</file>
+    <file>tool_icons/tool_icons.txt</file>
+    <file>tool_icons/surfacing.png</file>
+    <file>tool_icons/probe.png</file>
+    <file>tool_icons/not_found.png</file>
+    <file>tool_icons/drill.png</file>
+    <file>tool_icons/center_drill.png</file>
+    <file>tool_icons/ball_end_mill.png</file>
+    <file>images/exit_application.png</file>
+    <file>images/dimensions.png</file>
+    <file>images/configure-2.png</file>
+    <file>images/clear.png</file>
+    <file>images/z_plus_jog_button.png</file>
+    <file>images/unchecked.png</file>
+    <file>images/slide_off.png</file>
+    <file>images/slide_on.png</file>
+    <file>images/checked.png</file>
+    <file>images/Right_arrow.png</file>
+    <file>images/Left_arrow.png</file>
+    <file>images/a_minus_jog_button.png</file>
+    <file>images/a_plus_jog_button.png</file>
+    <file>images/x_plus_jog_button.png</file>
+    <file>images/x_minus_jog_button.png</file>
+    <file>images/z_minus_jog_button.png</file>
+    <file>images/z_plus_jog_button.png</file>
+    <file>images/y_minus_jog_button.png</file>
+    <file>images/y_plus_jog_button.png</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>images/atc_spindle_tool.png</file>
+    <file>images/brushed_metal.png</file>
+    <file>images/silver_dragon.png</file>
+    <file>images/tool_probe.png</file>
+  </qresource>
+</RCC>
