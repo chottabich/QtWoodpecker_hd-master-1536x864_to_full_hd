@@ -194,8 +194,8 @@ class HandlerClass:
                 self.w[i].hide()
             self.w.lbl_increments_linear.setText("INCREMENTS")
     # set validators for lineEdit widgets
-        for val in self.lineedit_list:
-            self.w['lineEdit_' + val].setValidator(self.valid)
+            for val in self.lineedit_list:
+                self.w['lineEdit_' + val].setValidator(self.valid)
     # check for default setup html file
         try:
             # web view widget for SETUP page
