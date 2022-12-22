@@ -91,11 +91,11 @@ QCheckBox::indicator {
 }
 
 QCheckBox::indicator:unchecked {
-    image: url(woodpecker/images/unchecked.png);
+    image: url(:/buttons/images/unchecked.png);
 }
 
 QCheckBox::indicator:checked {
-    image: url(woodpecker/images/checked.png);
+    image: url(:/buttons/images/checked.png);
 }
 
 /** ComboBoxes **/
@@ -158,7 +158,7 @@ QDoubleSpinBox::down-button {
 /** Labels **/
 QLabel {
     font: 10pt "Lato Heavy";
-    color: #FFFF00;
+    color: #00FF00;
 }
 
 QLabel#label_axis_x,  QLabel#label_axis_y,  QLabel#label_axis_z,  QLabel#label_axis_a, QLabel#label_axis_b {
