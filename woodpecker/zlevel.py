@@ -38,13 +38,13 @@ class ZLevel(QtWidgets.QWidget):
         # list of zero reference locations
         self.reference = ["top-left", "top-right", "center", "bottom-left", "bottom-right"]
         # set valid input formats for lineEdits
-        self.lineEdit_size_x.setValidator(QtGui.QDoubleValidator(0, 999, 3))
-        self.lineEdit_size_y.setValidator(QtGui.QDoubleValidator(0, 999, 3))
+        self.lineEdit_size_x.setValidator(QtGui.QDoubleValidator(0, 999, 3).setLocale(QtCore.QLocale("en_US")))
+        self.lineEdit_size_y.setValidator(QtGui.QDoubleValidator(0, 999, 3).setLocale(QtCore.QLocale("en_US")))
         self.lineEdit_steps_x.setValidator(QtGui.QIntValidator(0, 100))
         self.lineEdit_steps_y.setValidator(QtGui.QIntValidator(0, 100))
-        self.lineEdit_probe_vel.setValidator(QtGui.QIntValidator(0, 999))
-        self.lineEdit_zsafe.setValidator(QtGui.QDoubleValidator(0, 99, 1))
-        self.lineEdit_max_probe.setValidator(QtGui.QDoubleValidator(0, 99, 1))
+        self.lineEdit_probe_vel.setValidator(QtGui.QIntValidator(0, 999).setLocale(QtCore.QLocale("en_US")))
+        self.lineEdit_zsafe.setValidator(QtGui.QDoubleValidator(0, 99, 1).setLocale(QtCore.QLocale("en_US")))
+        self.lineEdit_max_probe.setValidator(QtGui.QDoubleValidator(0, 99, 1).setLocale(QtCore.QLocale("en_US")))
         self.lineEdit_size_x.setText(str(self.size_x))
         self.lineEdit_size_y.setText(str(self.size_y))
         self.lineEdit_steps_x.setText(str(self.x_steps))

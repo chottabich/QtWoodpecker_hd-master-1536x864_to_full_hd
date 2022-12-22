@@ -157,7 +157,7 @@ class OnePg(QWidget):
         lineedit.setMaxLength(8)
         lineedit.setFixedWidth(60)
         lineedit.setFixedHeight(30)
-        lineedit.setValidator(QtGui.QDoubleValidator(-99999, 99999, 2))
+        lineedit.setValidator(QtGui.QDoubleValidator(-99999, 99999, 2).setLocale(QtCore.QLocale("en_US")))
         if data is None or data == '':
             lineedit.setStyleSheet("border: 2px solid red;")
         lineedit.editingFinished.connect(self.parm_edited)

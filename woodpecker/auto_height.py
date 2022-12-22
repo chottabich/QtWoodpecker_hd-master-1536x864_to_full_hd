@@ -41,9 +41,9 @@ class Auto_Measure(QtWidgets.QWidget):
         self.stat = linuxcnc.stat()
         self.proc = None
         if INFO.MACHINE_IS_METRIC:
-            self.valid = QtGui.QDoubleValidator(-999.999, 999.999, 3)
+            self.valid = QtGui.QDoubleValidator(-999.999, 999.999, 3).setLocale(QtCore.QLocale("en_US"))
         else:
-            self.valid = QtGui.QDoubleValidator(-999.9999, 999.9999, 4)
+            self.valid = QtGui.QDoubleValidator(-999.9999, 999.9999, 4).setLocale(QtCore.QLocale("en_US"))
         # Load the widgets UI file:
         self.filename = os.path.join(HERE, 'auto_height.ui')
         try:
