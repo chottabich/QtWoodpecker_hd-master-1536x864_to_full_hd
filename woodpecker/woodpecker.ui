@@ -13631,7 +13631,7 @@ OFF</string>
                     <string/>
                    </property>
                    <property name="pixmap">
-                    <pixmap>:/buttons/tool_icons/not_found.png</pixmap>
+                    <pixmap resource="woodpecker.qrc">:/buttons/tool_icons/not_found.png</pixmap>
                    </property>
                    <property name="alignment">
                     <set>Qt::AlignBottom|Qt::AlignHCenter</set>
@@ -15727,7 +15727,7 @@ WHEEL</string>
                  <string/>
                 </property>
                 <property name="pixmap">
-                 <pixmap>:/images/images/tool_probe.png</pixmap>
+                 <pixmap resource="woodpecker.qrc">:/images/images/tool_probe.png</pixmap>
                 </property>
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -16690,7 +16690,7 @@ SENSOR</string>
                    <string/>
                   </property>
                   <property name="pixmap">
-                   <pixmap>:/images/images/atc_spindle_tool.png</pixmap>
+                   <pixmap resource="woodpecker.qrc">:/images/images/atc_spindle_tool.png</pixmap>
                   </property>
                   <property name="alignment">
                    <set>Qt::AlignBottom|Qt::AlignHCenter</set>
@@ -18199,7 +18199,7 @@ SIM</string>
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="qtdragon.qrc"/>
+  <include location="woodpecker.qrc"/>
  </resources>
  <connections>
   <connection>
@@ -18241,8 +18241,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1323</x>
-     <y>404</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18257,8 +18257,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1414</x>
-     <y>404</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18273,8 +18273,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1505</x>
-     <y>404</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18369,8 +18369,8 @@ SIM</string>
    <slot>btn_ref_camera_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>138</x>
-     <y>81</y>
+     <x>81</x>
+     <y>53</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18385,8 +18385,8 @@ SIM</string>
    <slot>btn_ref_laser_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>119</x>
-     <y>81</y>
+     <x>81</x>
+     <y>53</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18433,8 +18433,8 @@ SIM</string>
    <slot>btn_m61_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>133</x>
-     <y>81</y>
+     <x>83</x>
+     <y>53</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18449,8 +18449,8 @@ SIM</string>
    <slot>slow_button_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1510</x>
-     <y>285</y>
+     <x>1422</x>
+     <y>292</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18545,8 +18545,8 @@ SIM</string>
    <slot>btn_goto_sensor_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>79</x>
-     <y>81</y>
+     <x>81</x>
+     <y>53</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18577,8 +18577,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1505</x>
-     <y>312</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18593,8 +18593,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1414</x>
-     <y>312</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18609,8 +18609,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1505</x>
-     <y>358</y>
+     <x>1316</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18625,8 +18625,8 @@ SIM</string>
    <slot>updateJogState()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1323</x>
-     <y>312</y>
+     <x>1301</x>
+     <y>43</y>
     </hint>
     <hint type="destinationlabel">
      <x>839</x>
@@ -18657,8 +18657,8 @@ SIM</string>
    <slot>cam_zoom_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1178</x>
-     <y>123</y>
+     <x>457</x>
+     <y>85</y>
     </hint>
     <hint type="destinationlabel">
      <x>959</x>
@@ -18673,8 +18673,8 @@ SIM</string>
    <slot>cam_rot_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1178</x>
-     <y>360</y>
+     <x>457</x>
+     <y>85</y>
     </hint>
     <hint type="destinationlabel">
      <x>959</x>
@@ -18689,8 +18689,8 @@ SIM</string>
    <slot>cam_dia_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1178</x>
-     <y>241</y>
+     <x>457</x>
+     <y>85</y>
     </hint>
     <hint type="destinationlabel">
      <x>959</x>
@@ -18705,8 +18705,8 @@ SIM</string>
    <slot>runFromLineClicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1179</x>
-     <y>61</y>
+     <x>578</x>
+     <y>57</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18737,8 +18737,8 @@ SIM</string>
    <slot>grid_size_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>933</x>
-     <y>321</y>
+     <x>577</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18753,8 +18753,8 @@ SIM</string>
    <slot>cone_size_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>933</x>
-     <y>323</y>
+     <x>577</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18769,8 +18769,8 @@ SIM</string>
    <slot>apply_stylesheet_clicked(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1093</x>
-     <y>407</y>
+     <x>527</x>
+     <y>40</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18785,12 +18785,12 @@ SIM</string>
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1190</x>
-     <y>245</y>
+     <x>578</x>
+     <y>57</y>
     </hint>
     <hint type="destinationlabel">
-     <x>1194</x>
-     <y>175</y>
+     <x>580</x>
+     <y>37</y>
     </hint>
    </hints>
   </connection>
@@ -18801,8 +18801,8 @@ SIM</string>
    <slot>chk_use_virtual_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>350</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18817,8 +18817,8 @@ SIM</string>
    <slot>chk_use_sensor_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>371</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18833,8 +18833,8 @@ SIM</string>
    <slot>chk_use_camera_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>392</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18849,8 +18849,8 @@ SIM</string>
    <slot>chk_run_from_line_checked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>329</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18865,8 +18865,8 @@ SIM</string>
    <slot>chk_override_limits_checked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>414</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18881,8 +18881,8 @@ SIM</string>
    <slot>chk_inhibit_selection_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>224</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18897,8 +18897,8 @@ SIM</string>
    <slot>chk_alpha_mode_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>675</x>
-     <y>203</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18913,8 +18913,8 @@ SIM</string>
    <slot>btn_start_macro_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1190</x>
-     <y>315</y>
+     <x>578</x>
+     <y>57</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18929,8 +18929,8 @@ SIM</string>
    <slot>btn_setdro_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>490</x>
-     <y>254</y>
+     <x>482</x>
+     <y>261</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18945,8 +18945,8 @@ SIM</string>
    <slot>btn_gcode_edit_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>518</x>
-     <y>407</y>
+     <x>507</x>
+     <y>55</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18961,8 +18961,8 @@ SIM</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>518</x>
-     <y>164</y>
+     <x>507</x>
+     <y>65</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18977,8 +18977,8 @@ SIM</string>
    <slot>btn_copy_file_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>518</x>
-     <y>230</y>
+     <x>507</x>
+     <y>65</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -18993,8 +18993,8 @@ SIM</string>
    <slot>btn_clear_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1204</x>
-     <y>117</y>
+     <x>507</x>
+     <y>55</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -19025,8 +19025,8 @@ SIM</string>
    <slot>btn_save_status_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1204</x>
-     <y>173</y>
+     <x>507</x>
+     <y>55</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -19041,8 +19041,8 @@ SIM</string>
    <slot>cmb_tool_icons_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>99</x>
-     <y>42</y>
+     <x>103</x>
+     <y>38</y>
     </hint>
     <hint type="destinationlabel">
      <x>312</x>
@@ -19057,8 +19057,8 @@ SIM</string>
    <slot>disable_spindle_pause()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>557</x>
-     <y>237</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>767</x>
@@ -19073,8 +19073,8 @@ SIM</string>
    <slot>btn_enable_comp_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>266</x>
-     <y>555</y>
+     <x>305</x>
+     <y>494</y>
     </hint>
     <hint type="destinationlabel">
      <x>299</x>
@@ -19089,8 +19089,8 @@ SIM</string>
    <slot>use_mdi_keyboard_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>1106</x>
-     <y>290</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>1128</x>
@@ -19105,8 +19105,8 @@ SIM</string>
    <slot>mdi_enter_pressed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>998</x>
-     <y>387</y>
+     <x>517</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>1016</x>
@@ -19121,8 +19121,8 @@ SIM</string>
    <slot>mdi_select_text()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>780</x>
-     <y>387</y>
+     <x>527</x>
+     <y>35</y>
     </hint>
     <hint type="destinationlabel">
      <x>798</x>
@@ -19153,8 +19153,8 @@ SIM</string>
    <slot>btn_gripper_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>483</x>
-     <y>289</y>
+     <x>507</x>
+     <y>65</y>
     </hint>
     <hint type="destinationlabel">
      <x>504</x>
@@ -19191,6 +19191,38 @@ SIM</string>
     <hint type="destinationlabel">
      <x>767</x>
      <y>431</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gcode_viewer</sender>
+   <signal>percentDone(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>percent_done_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>315</x>
+     <y>-34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gcodegraphics</sender>
+   <signal>percentLoaded(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>percent_loaded_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>873</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>934</x>
+     <y>-12</y>
     </hint>
    </hints>
   </connection>
@@ -19290,6 +19322,8 @@ SIM</string>
   <slot>mdi_select_text()</slot>
   <slot>btn_stop_clicked()</slot>
   <slot>btn_gripper_clicked()</slot>
+  <slot>percent_done_changed()</slot>
+  <slot>percent_loaded_changed()</slot>
  </slots>
  <buttongroups>
   <buttongroup name="mode_buttonGroup"/>
