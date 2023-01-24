@@ -13,7 +13,7 @@ try:
           continue
        else:
          if h['in'] > tmp:
-            f = open('/home/jura/line-number.txt','w')
+            f = open('/home/name/line-number.txt','w')
             f.write(str(int(h['in'])))
             f.close()
             tmp = h['in']
