@@ -13074,13 +13074,13 @@ color: #00FF00;</string>
          </property>
          <property name="maximumSize">
           <size>
-           <width>500</width>
+           <width>16777215</width>
            <height>16777215</height>
           </size>
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_27">
           <property name="spacing">
-           <number>6</number>
+           <number>2</number>
           </property>
           <property name="leftMargin">
            <number>2</number>
@@ -19904,7 +19904,7 @@ SIM</string>
  </slots>
  <buttongroups>
   <buttongroup name="mode_buttonGroup"/>
-  <buttongroup name="page_buttonGroup"/>
   <buttongroup name="axis_buttonGroup"/>
+  <buttongroup name="page_buttonGroup"/>
  </buttongroups>
 </ui>

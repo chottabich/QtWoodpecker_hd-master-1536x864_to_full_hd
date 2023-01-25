@@ -11618,13 +11618,13 @@ color: #FFFF00;</string>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>500</width>
+                      <width>16777215</width>
                       <height>320</height>
                      </size>
                     </property>
                     <layout class="QHBoxLayout" name="horizontalLayout_18">
                      <property name="spacing">
-                      <number>4</number>
+                      <number>2</number>
                      </property>
                      <property name="leftMargin">
                       <number>0</number>
@@ -19943,7 +19943,7 @@ color: rgb(51, 255, 0);</string>
  </slots>
  <buttongroups>
   <buttongroup name="mode_buttonGroup"/>
-  <buttongroup name="page_buttonGroup"/>
   <buttongroup name="axis_buttonGroup"/>
+  <buttongroup name="page_buttonGroup"/>
  </buttongroups>
 </ui>
