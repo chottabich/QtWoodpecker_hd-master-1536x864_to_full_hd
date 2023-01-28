@@ -111,7 +111,7 @@
        <bool>false</bool>
       </property>
       <property name="focusOverlay_option" stdset="0">
-       <bool>false</bool>
+       <bool>true</bool>
       </property>
       <property name="focusEffect_option" stdset="0">
        <bool>false</bool>
@@ -4064,20 +4064,20 @@ border-radius: 4px;
                <item>
                 <widget class="QFrame" name="frame_status">
                  <property name="sizePolicy">
-                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>277</width>
+                   <width>285</width>
                    <height>320</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>277</width>
+                   <width>315</width>
                    <height>320</height>
                   </size>
                  </property>
@@ -10708,7 +10708,7 @@ KEYBOARD</string>
                     </property>
                     <property name="maximumSize">
                      <size>
-                      <width>316</width>
+                      <width>315</width>
                       <height>16777215</height>
                      </size>
                     </property>
@@ -10729,6 +10729,9 @@ KEYBOARD</string>
                       <property name="bottomMargin">
                        <number>0</number>
                       </property>
+                      <property name="spacing">
+                       <number>4</number>
+                      </property>
                       <item row="0" column="0">
                        <widget class="QFrame" name="jogging_frame">
                         <property name="sizePolicy">
@@ -10745,7 +10748,7 @@ KEYBOARD</string>
                         </property>
                         <property name="maximumSize">
                          <size>
-                          <width>16777215</width>
+                          <width>315</width>
                           <height>16777215</height>
                          </size>
                         </property>
@@ -12163,6 +12166,12 @@ border-radius: 4px;
                      </layout>
                     </widget>
                     <widget class="QWidget" name="page_3">
+                     <property name="maximumSize">
+                      <size>
+                       <width>315</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <layout class="QGridLayout" name="gridLayout_13">
                       <property name="leftMargin">
                        <number>2</number>
@@ -12178,6 +12187,12 @@ border-radius: 4px;
                       </property>
                       <item row="0" column="0">
                        <widget class="QFrame" name="frame_5">
+                        <property name="maximumSize">
+                         <size>
+                          <width>315</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
                         <property name="frameShape">
                          <enum>QFrame::StyledPanel</enum>
                         </property>
@@ -12219,6 +12234,12 @@ border-radius: 4px;
                      </layout>
                     </widget>
                     <widget class="QWidget" name="page_5">
+                     <property name="maximumSize">
+                      <size>
+                       <width>315</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
                      <layout class="QGridLayout" name="gridLayout_14">
                       <property name="leftMargin">
                        <number>2</number>
@@ -12248,7 +12269,7 @@ border-radius: 4px;
                         </property>
                         <property name="maximumSize">
                          <size>
-                          <width>16777215</width>
+                          <width>315</width>
                           <height>16777215</height>
                          </size>
                         </property>
@@ -12952,6 +12973,9 @@ color: #00FF00;</string>
              <property name="bottomMargin">
               <number>2</number>
              </property>
+             <property name="spacing">
+              <number>4</number>
+             </property>
              <item row="0" column="0">
               <widget class="QFrame" name="frame_full_screen">
                <property name="frameShape">
@@ -12973,6 +12997,9 @@ color: #00FF00;</string>
                 <property name="bottomMargin">
                  <number>2</number>
                 </property>
+                <property name="spacing">
+                 <number>4</number>
+                </property>
                 <item row="0" column="0">
                  <widget class="WidgetSwitcher" name="widgetswitcher">
                   <property name="currentIndex">
@@ -12985,6 +13012,9 @@ color: #00FF00;</string>
                   </property>
                   <widget class="QWidget" name="page_0">
                    <layout class="QVBoxLayout" name="verticalLayout_6">
+                    <property name="spacing">
+                     <number>4</number>
+                    </property>
                     <property name="leftMargin">
                      <number>2</number>
                     </property>
@@ -13017,6 +13047,9 @@ color: #00FF00;</string>
                   </widget>
                   <widget class="QWidget" name="page">
                    <layout class="QVBoxLayout" name="verticalLayout_13">
+                    <property name="spacing">
+                     <number>4</number>
+                    </property>
                     <property name="leftMargin">
                      <number>2</number>
                     </property>
@@ -13074,7 +13107,7 @@ color: #00FF00;</string>
          </property>
          <property name="maximumSize">
           <size>
-           <width>16777215</width>
+           <width>500</width>
            <height>16777215</height>
           </size>
          </property>
@@ -14083,7 +14116,7 @@ OFF</string>
                 </property>
                 <property name="maximumSize">
                  <size>
-                  <width>290</width>
+                  <width>16777215</width>
                   <height>16777215</height>
                  </size>
                 </property>
@@ -19903,8 +19936,8 @@ SIM</string>
   <slot>percent_loaded_changed()</slot>
  </slots>
  <buttongroups>
+  <buttongroup name="page_buttonGroup"/>
   <buttongroup name="mode_buttonGroup"/>
   <buttongroup name="axis_buttonGroup"/>
-  <buttongroup name="page_buttonGroup"/>
  </buttongroups>
 </ui>
