@@ -3129,7 +3129,7 @@ border-radius: 4px;
                                   <number>1</number>
                                  </property>
                                  <property name="text">
-                                  <string>200</string>
+                                  <string>100</string>
                                  </property>
                                  <property name="alignment">
                                   <set>Qt::AlignCenter</set>
@@ -3534,13 +3534,13 @@ border-radius: 4px;
                                   <number>1</number>
                                  </property>
                                  <property name="text">
-                                  <string>200</string>
+                                  <string>100.0</string>
                                  </property>
                                  <property name="alignment">
                                   <set>Qt::AlignCenter</set>
                                  </property>
                                  <property name="textTemplate" stdset="0">
-                                  <string>%d</string>
+                                  <string>%.1f</string>
                                  </property>
                                  <property name="alt_textTemplate" stdset="0">
                                   <string>%d</string>
