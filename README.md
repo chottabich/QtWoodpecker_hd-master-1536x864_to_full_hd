@@ -18,6 +18,6 @@ sudo apt-get install python3-matplotlib
 sudo apt-get install python3-poppler-qt5
 
 #### To Install
-Unzip the archive to the /home/name/linuxcnc/configs folder. Place style files and woodpecker.qrc with replacement at usr/share/qtvcp/screen/woodpecker, you will be able to switch styles from settings tab. The size changes to F10(min), F11(max). In the woodpecker_xyza.ini file, remove -f from the DISPLAY section. 
+Unzip the archive to the /home/name/linuxcnc/configs folder. Place style files and woodpecker.qrc with replacement at usr/share/qtvcp/screen/woodpecker, you will be able to switch styles from settings tab. The size changes to F10(min), F11(max). 
 
 File line_number.txt to the /home/name/line-number.txt according to the address in numstr.py. 
